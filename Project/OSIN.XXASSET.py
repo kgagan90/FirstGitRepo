@@ -4,3 +4,4 @@ def beforeCreateMboSet(ctx):
    if siteid is None or siteid =="":
        struc.setCurrentData("SITEID", "BEDFORD") 
        struc.setCurrentData("ORGID", "EAGLENA")
+       struc.setCurrentData("XXORGID", "EAGLENA") #Custom orgid id field
